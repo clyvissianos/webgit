@@ -1,2 +1,3 @@
 # webgit
-My first git project version 2
+My first git project
+**version 2**
