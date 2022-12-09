@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Στοιχεία Εκπαιδευόμενου</title>
+</head>
+<body>
+
+    <form>
+
+        <table>
+
+            <tr>
+                <td colspan="4"><h1>Στοιχεία Εκπαιδευόμενου</h1></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="lastname">Επώνυμο:</label></td>
+                <td><input type="text" name="lastname" id="lastname" style="width: 240px;" required></td>
+            </tr>
+
+            <tr>    
+                <td colspan="2"><label for="firstname">Όνομα:</label></td>
+                <td><input type="text" name="firstname" id="firstname" style="width: 240px;" required></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2"><label for="birth-date">Ημερομηνία Γέννησης:</label></td>
+                <td><input type="date" name="birth-date" id="birth-date" maxlength="8" required
+                        pattern="^[0-2][0-9]|3[01])\/(0[1-9]|1[0-2])\/([0-9]{2}$"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="study-period">Έτος Σπουδών:</label></td>
+                <td><input type="number" name="study-period" id="study-period" style="width: 60px;"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="username">Login(email):</label></td>
+                <td><input type="email" name="username" id="username" style="width: 240px;" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="password" minlength="5" style="width: 120px;" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="Αποστολή"></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+    
+</body>
+</html>
